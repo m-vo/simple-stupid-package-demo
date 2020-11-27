@@ -1,2 +1,2 @@
-git-for-science=https://github.com/m-vo/git-for-science.git@v1
-cest-lib=https://github.com/kherz/pulseq-cest-library@master
+git-for-science = https://github.com/m-vo/git-for-science.git@v1
+cest-lib        = https://github.com/kherz/pulseq-cest-library@master
