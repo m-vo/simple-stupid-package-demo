@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# remove existing packages
+rm -rf packages
+
+# execute "git clone" for each line
+awk -F"=|@" '{print "git clone --branch " $3 " --depth 1 " $2 " packages/" $1}' packages.toml | sh
